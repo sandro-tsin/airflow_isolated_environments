@@ -1,5 +1,5 @@
 """
-The example of using the @task.virtualenv that creates a new 
+The example of using the @task.virtualenv decorator that creates a new 
 virtual environment each time the task runs using Python version 
 as Airflow environment 
 """

@@ -54,7 +54,7 @@ RUN echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc && \
 RUN pyenv install 3.12.0
 
 # Create a virtual environment using pyenv
-RUN pyenv virtualenv 3.12.0 great_expectation_env
+RUN pyenv virtualenv 3.12.0 isolated_vertial_env
 
 # Activate the virtual environment and install required Python packages
 RUN bash -c 'source ~/.bashrc && eval "$(pyenv init -)" && eval "$(pyenv virtualenv-init -)" && \
